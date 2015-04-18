@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-$ composer require zhuravljov/calc
+$ composer require zhuravljov/yii2-calc-validator
 ```
 
 or add
 
 ```
-"zhuravljov/calc": "*"
+"zhuravljov/yii2-calc-validator": "*"
 ```
 
 to the `require` section of your `composer.json` file.
