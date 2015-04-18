@@ -1,0 +1,23 @@
+{
+    "name": "zhuravljov/yii2-calc-validator",
+    "description": "",
+    "keywords": ["yii", "extension", "validator", "math", "calculator"],
+    "homepage": "https://github.com/zhuravljov/yii2-calc-validator",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Roman Zhuravlev",
+            "email": "zhuravljov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "zhuravljov/calc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "zhuravljov\\yii\\validators\\": ""
+        }
+    }
+}
