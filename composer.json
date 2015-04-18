@@ -1,6 +1,6 @@
 {
     "name": "zhuravljov/yii2-calc-validator",
-    "description": "",
+    "description": "Math expression validator for Yii2",
     "keywords": ["yii", "extension", "validator", "math", "calculator"],
     "homepage": "https://github.com/zhuravljov/yii2-calc-validator",
     "type": "yii2-extension",
