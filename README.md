@@ -41,3 +41,16 @@ public function rules()
     ];
 }
 ```
+
+After adding this validator, expressions can be used in forms.
+
+For example:
+
+- `12.80 + 3.50 * 2` - valid expression. Result: `19.8`.
+- `(2 + 2) * 2` - valid expression. Result: `8`.
+- `(2 + 2` - invalid expression.
+
+This validator checks an expression and saves a result.
+And it can be used for currency fields or any numeric fields. 
+
+More details about [calculation of expressions](https://github.com/zhuravljov/calc/blob/master/README.md).
